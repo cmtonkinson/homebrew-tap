@@ -5,21 +5,21 @@
 class Governator < Formula
   desc "Governator CLI - AI-powered task orchestration tool"
   homepage "https://github.com/cmtonkinson/governator"
-  version "1.0.1"
+  version "1.0.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/cmtonkinson/governator/releases/download/v1.0.1/governator_1.0.1_darwin_amd64.tar.gz"
-      sha256 "a35b8ec592e535ce24e548d62f64f6f814106830fefd516248043db6a8e41106"
+      url "https://github.com/cmtonkinson/governator/releases/download/v1.0.2/governator_1.0.2_darwin_amd64.tar.gz"
+      sha256 "2b36d71e578f3cdddc12d8bf1e0241fcdbb5757d6baaf1f06d12fe17b3294cf3"
 
       def install
         bin.install "governator"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/cmtonkinson/governator/releases/download/v1.0.1/governator_1.0.1_darwin_arm64.tar.gz"
-      sha256 "057ddb435a5a8b9f5a9eb11f9cba43e3c0a7ce9cc00c77c53866f06c08dba7a8"
+      url "https://github.com/cmtonkinson/governator/releases/download/v1.0.2/governator_1.0.2_darwin_arm64.tar.gz"
+      sha256 "fbf2fbd47184477dd359caa6cc278d913e02ab9218437c0781409dbcb6ca6d3d"
 
       def install
         bin.install "governator"
@@ -29,15 +29,15 @@ class Governator < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/cmtonkinson/governator/releases/download/v1.0.1/governator_1.0.1_linux_amd64.tar.gz"
-      sha256 "cfae0dc177b12156af7e6a1ef80b8bb4fb1303587d672dc0d484deeefc634aa6"
+      url "https://github.com/cmtonkinson/governator/releases/download/v1.0.2/governator_1.0.2_linux_amd64.tar.gz"
+      sha256 "97ec108e7cbd633bef78a6c63e3e4c4d0333df98abd931c58fcbef9cc8fe680e"
       def install
         bin.install "governator"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/cmtonkinson/governator/releases/download/v1.0.1/governator_1.0.1_linux_arm64.tar.gz"
-      sha256 "357611e22a6ad07b3c30e51f6d53600f55866bd7ed974626ad7c546adbe64965"
+      url "https://github.com/cmtonkinson/governator/releases/download/v1.0.2/governator_1.0.2_linux_arm64.tar.gz"
+      sha256 "6679935224961e3b29bc7a65eb3953243c710c4af53594235d7aad0942b42c27"
       def install
         bin.install "governator"
       end
