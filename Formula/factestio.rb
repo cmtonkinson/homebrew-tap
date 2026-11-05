@@ -5,9 +5,9 @@ class Factestio < Formula
   desc 'Hierarchical scenario-based test framework for Factorio mods'
   homepage 'https://github.com/cmtonkinson/factestio'
   license 'MIT'
-  url 'https://github.com/cmtonkinson/factestio/archive/refs/tags/v0.7.2.tar.gz'
-  sha256 'dd98a736abdae27614c510e8c9c17dc0ac24a7f26c954dad4abb7a0a50f6a659'
-  version '0.7.2'
+  url 'https://github.com/cmtonkinson/factestio/archive/refs/tags/v0.8.0.tar.gz'
+  sha256 'eed0757390a85edb461b49d46293e49595c11fc418cf9c16117e394063e52d86'
+  version '0.8.0'
 
   # Lua 5.2 and luarocks are required (not available in Homebrew core).
   # Install via luaver: https://github.com/DhavalKapil/luaver
